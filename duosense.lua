@@ -72,7 +72,6 @@ CreditsSection4:AddButton({
     end,
 })
 
-
 local Lighting = game:GetService("Lighting")
 local OldBrightness = Lighting.Brightness
 local OldAmbience = Lighting.Ambient
