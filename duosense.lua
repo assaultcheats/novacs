@@ -72,20 +72,7 @@ CreditsSection4:AddButton({
     end,
 })
 
-CreditsSection5:AddLabel("Games")
-CreditsSection5:AddButton({
-    text = "NOVACKSS",
-    callback = function()
-        Roblox.GameLauncher.followPlayerIntoGame(2733926760);
-    end,
-}) 
-CreditsSection5:AddButton({
-    text = "DR1FTHUNT3R",
-    callback = function()
-        Roblox.GameLauncher.followPlayerIntoGame(309101522);
-    end,
-    
-})
+
 local Lighting = game:GetService("Lighting")
 local OldBrightness = Lighting.Brightness
 local OldAmbience = Lighting.Ambient
