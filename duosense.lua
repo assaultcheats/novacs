@@ -1424,6 +1424,14 @@ if isfile("duosense/default.cr") then
 end 
 
 client:console("duosense loaded in " .. tostring(tick() - start) .. "ms")
-client:console("welcome " .. LocalPlayer)
+local Name = "NOVACKSS"
+if (game.Players.LocalPlayer.Name == Name) then
+    client:console("welcome novacks")
+end
+
+local Name2 = "DR1FTHUNT3R"
+if (game.Players.LocalPlayer.Name == Name2) then
+    client:console("Welcome, James")
+end
 
 library:selectTab(library.tabs[1])
