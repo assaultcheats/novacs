@@ -64,11 +64,11 @@ Grenades:AddToggle({
     float = .002,
 })
 
-CreditsSection4:AddLabel("discord.gg/")
+CreditsSection4:AddLabel("z7BAdvNKsW")
 CreditsSection4:AddButton({
     text = "Copy Invite",
     callback = function()
-        setclipboard("https://we.have.no.discord.silly.billy/")
+        setclipboard("https://discord.gg/z7BAdvNKsW")
     end,
 })
 
