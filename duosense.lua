@@ -207,23 +207,6 @@ LoadConfigs:AddButton({
     end,
 })
 
-CreditsSection3:AddToggle({
-    text = "No Fall Damage",
-    flag = "NoFallDamage",
-    callback = function(value)
-        library.flags.NoFallDamage = value
-    end,
-})
-
-CreditsSection3:AddToggle({
-    text = "Kill Say",
-    flag = "KillSay",
-})
-CreditsSection3:AddBox({
-    text = "Kill Say Message",
-    flag = "KillSayMsg",
-    value = "Shows: msg..playername"
-})
 
 MiscSection:AddToggle({
     text = "Hitbox Extender",
@@ -238,53 +221,8 @@ MiscSection:AddToggle({
     end,
 })
 
-CreditsSection3:AddToggle({
-    text = "Bunny Hop",
-    flag = "BunnyHop",
-}):AddSlider({
-    text = "Bunny Hop Speed",
-    flag = "BunnyHopSpeed",
-    min = 4,
-    max = 70,
-})
 
-CreditsSection3:AddToggle({
-    text = "Custom Firerate",
-    flag = "CustomFirerate",
-    callback = function(value) CustomFirerate = value end,  
-})
 
-CreditsSection3:AddSlider({
-    text = "Firerate addition",
-    flag = "FirerateAdition",
-    min = 0,
-    max = 2000, -- why would you even go to 2000? 
-    callback = function(value)
-        library.flags.FirerateAdition = value
-    end,
-})
-CreditsSection3:AddToggle({
-    text = "Custom Walkspeed",
-    flag = "WalkspeedOn",
-    callback = function(value)
-        library.flags.WalkspeedOn = value
-    end, 
-}):AddSlider({
-    text = "Walkspeed",
-    flag = "Walkspeed",
-    min = 10,
-    max = 70,
-    callback = function(value)
-        library.flags.Walkspeed = value
-    end, 
-})
-
-CreditsSection3:AddToggle({
-    text = "Custom Jump Power",
-    flag = "JumpPowerOn",
-    callback = function(value)
-        library.flags.JumpPowerOn = value
-    end, 
 }):AddSlider({
     text = "JumpPower",
     flag = "JumpPower",
@@ -359,7 +297,6 @@ RageSection:AddToggle({
 
 CreditsSection:AddLabel("Made by: novacks#0001")
 CreditsSection2:AddLabel("People who helped:\nNot Jayy#1337")
-CreditsSection3:AddLabel("Rage Settings")
 
 ESPSection:AddToggle({
     text = "Enabled",
