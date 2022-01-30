@@ -159,6 +159,9 @@ LoadConfigs:AddList({
     flag = "Config List",
     values = library:GetConfigs()
 })
+
+CreditsSection3:AddLabel("<3")
+
 createConfigs:AddBox({text = "Config Name", skipflag = true});
 createConfigs:AddButton({
     text = "Create",
